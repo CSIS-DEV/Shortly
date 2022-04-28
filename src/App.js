@@ -1,12 +1,19 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
-
+import Home from './components/Home';
+import Solution from './components/Solution';
+import Features from './components/Features';
+import Pricing from './components/Pricing';
 function App() {
   return (
-    <h1 className="text-5xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Home />
+      <Solution />
+      <Features />
+      <Pricing />
+    </div>
+  
   );
-}
+};
 
 export default App;
